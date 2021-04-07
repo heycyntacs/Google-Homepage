@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 5vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 15px;
+}
+
+.navbar button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar a {
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+    font-size: .8rem;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar img{
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#apps {
+    height: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main form {
+    display: grid;
+}
+
+#search-bar {
+    height: 40px;
+    width: 60vh;
+    border: .5px solid rgba(202, 202, 202, 0.788);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#search-bar:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.form-buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+main p {
+    font-size: .8em;
+    margin-top: 30px;
+}
+
+main p a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+main p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 10vh;
+    background: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    padding: 0px 25px 0px 25px;
+    font-size: .9em;
+}
+
+.footer-country {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-links {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-links a {
+    color: gray;
+    text-decoration: none;
+    margin-right: 15px;
+}

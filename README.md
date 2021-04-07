@@ -1,0 +1,2 @@
+### Project: Google Homepage
+Built using what was learned in FreeCodeCamp's Responsive Web Design Certification (Basic HTML & CSS, CSS Flex and CSS Grid). By doing this project, I've learned how to use and take advantage of the developer tools.
